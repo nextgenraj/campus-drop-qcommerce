@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CampusDrop ⚡ (12-Min Campus Quick-Commerce MVP)
 
-## Getting Started
+CampusDrop is a hyper-local quick-commerce web application built for college campuses. It bridges the gap between campus tuck shops and hostel blocks/labs, delivering snacks, midnight caffeine, and urgent exam stationery within 12 minutes.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Product Assumptions & Scope
+* **Single Dark-Store Origin:** Orders originate from a central campus co-op/tuck shop.
+* **Structured Campus Drop-Points:** Replaces standard street addresses with campus-specific nodes (*Boys Hostel Block A, Girls Hostel Block C, Central Library Gate, CSE Lab 302*).
+* **Frictionless Browse-to-Checkout:** No forced auth wall on browse; students add items instantly and input their hostel/room number inside a slide-over drawer.
+* **Prepaid Instant UPI:** Excludes Cash on Delivery to eliminate prank orders and runner delays at hostel gates.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
+* **Framework:** Next.js (App Router)
+* **Styling:** Tailwind CSS
+* **State Management:** React Context API (`CartContext`)
+* **Icons & UI:** Custom emoji assets & Lucide-react
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ⚙️ Local Setup & Installation
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/nextgenraj/campus-drop-qcommerce.git](https://github.com/nextgenraj/campus-drop-qcommerce.git)
+   cd campus-drop-qcommerce
